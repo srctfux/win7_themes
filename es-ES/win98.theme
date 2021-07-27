@@ -1,0 +1,108 @@
+; Copyright © Microsoft Corp.
+
+[Theme]
+; Windows Classic - IDS_THEME_DISPLAYNAME_CLASSIC
+DisplayName=Windows 98
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+No=%SystemRoot%\cursors\aero_unavail.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+DefaultValue=Aero de Windows
+
+[Control Panel\Desktop]
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[Control Panel\Desktop\WindowMetrics]
+
+[Metrics]
+NonclientMetrics=88 1 0 0 1 0 0 0 16 0 0 0 16 0 0 0 18 0 0 0 18 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 188 2 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 0 15 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 188 2 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 0 0 0 18 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+LangID=3082
+IconMetrics=76 0 0 0 80 0 0 0 80 0 0 0 1 0 0 0 245 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 144 1 0 0 0 0 0 1 0 0 0 0 84 97 104 111 109 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+
+[VisualStyles]
+Path=
+ColorStyle=Windows clásico
+Size=Normal
+Transparency=0
+ColorizationColor=0X6B74B8FC
+Composition=0
+VisualStyleVersion=10
+
+[VisualStyles.A]
+ColorStyle=Windows clásico
+
+[VisualStyles.W]
+ColorStyle=Windows cl+AOE-sico
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=DABJDKT
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Sin sonidos
+
+[Control Panel\Colors]
+ActiveBorder=192 192 192
+ActiveTitle=0 0 128
+AppWorkspace=128 128 128
+Background=0 128 128
+ButtonAlternateFace=192 192 192
+ButtonDkShadow=0 0 0
+ButtonFace=192 192 192
+ButtonHilight=255 255 255
+ButtonLight=223 223 223
+ButtonShadow=128 128 128
+ButtonText=0 0 0
+GradientActiveTitle=0 0 128
+GradientInactiveTitle=128 128 128
+GrayText=128 128 128
+Hilight=0 0 128
+HilightText=255 255 255
+HotTrackingColor=0 0 128
+InactiveBorder=192 192 192
+InactiveTitle=128 128 128
+InactiveTitleText=192 192 192
+InfoText=0 0 0
+InfoWindow=255 255 225
+Menu=192 192 192
+MenuBar=192 192 192
+MenuHilight=0 0 128
+MenuText=0 0 0
+Scrollbar=192 192 192
+TitleText=255 255 255
+Window=255 255 255
+WindowFrame=0 0 0
+WindowText=0 0 0
